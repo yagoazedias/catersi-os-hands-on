@@ -1,0 +1,5 @@
+{
+  "fs": {
+    "files": ["tic-tac-toe-dapp.py", "entrypoint.sh"]
+  }
+}
