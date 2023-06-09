@@ -13,6 +13,7 @@
 from os import environ
 import logging
 import requests
+import json
 
 logging.basicConfig(level="INFO")
 logger = logging.getLogger(__name__)
@@ -24,6 +25,7 @@ def handle_advance(data):
     logger.info(f"Received advance request data {data}")
     logger.info("Adding notice")
     notice = {"payload": data["payload"]}
+    logger.info(f"logging data {response.status_code} body {data}")
     response = requests.post(rollup_server + "/notice", json=notice)
     logger.info(f"Received notice status {response.status_code} body {response.content}")
     return "accept"

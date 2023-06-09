@@ -1,27 +1,28 @@
-# Tic Tac Toe
-## Tic Tac Toe Game using JS
+<h1 align="center">TIC-TAC-TOE-GAME</h1>
 
-## Synopsis
-* Allow multi-player
-* When winner, cells highlight
-* Include button to reset board at any time during game
 
-## Links
+## :rocket: Knowledges
+ - `ReactJS`
+ - `Framer Motion`
 
-* Live Example - https://robhitt.github.io/tic-tac-toe-js
-* Github - https://www.github.com/robhitt/tic-tac-toe-js
+## :book: How to use
+To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [ReactJS](https://reactjs.org/docs/getting-started.html) installed on your computer. From your command line:
 
-## Installation
+```
+# Clone this repository
+$ git clone https://github.com/YoucefHmd/TIC-TAC-TOE-GAME.git
 
-* Fire up the [index.html](https://robhitt.github.io/tic-tac-toe-js) file in any web browser and you'll be good to go!
+# Go into the repository
+$ cd TIC-TAC-TOE-GAME
 
-## Contributors
+# Install dependencies
+$ npm install
 
-#### Rob Hitt
-* [E-mail](mailto:robhitt@gmail.com)
-* [Website](https://www.robhitt.com/)
-* [Resume](http://www.robhitt.com/resume)
-* [LinkedIn](http://www.linkedin.com/in/robhitt)
-* [Twitter](http://www.twitter.com/robhitt)
-* [Instagram](http://www.instagram.com/robhitt)
-* [Bodega Cats](http://www.instagram.com/bodegacatsofinstagram)
+# Run the app
+$ npm start
+```
+## :link: Demo
+  - <a target="_blank" href="https://YoucefHmd.github.io/TIC-TAC-TOE-GAME/"> Click Here </a> to see and play by yourself a demo of the game.
+
+## :mailbox: Contact
+  - <a target="_blank" href="mailto:youcef.hammadi.y.s.p@gmail.com">E-mail</a>
